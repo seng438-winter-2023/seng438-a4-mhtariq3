@@ -1,0 +1,860 @@
+{
+  "id": "8e717f87-db03-442d-9c62-48e95c4bb3c4",
+  "version": "2.0",
+  "name": "Costco Page",
+  "url": "https://www.costco.ca",
+  "tests": [{
+    "id": "ca06f08b-ca65-4b35-8866-69b66eb3df5f",
+    "name": "Add more than 1 quantity to cart",
+    "commands": [{
+      "id": "b0002916-3aef-45c9-a3ec-118f7fa8a59d",
+      "comment": "",
+      "command": "open",
+      "target": "/CheckoutCartDisplayView?catalogId=11201&storeId=10302&langId=-24&krypto=O0Ue6wxuafnd60FufUjIMIcgMTbbcaLzkH0yBQpDwohQp2oMv%2BpJHn0gE2K3rLruVpI3%2BbyeKb1d5nLE1she%2B7oEKBK9gCyilk6eIih0L%2Fo%3D&ddkey=http%3ACheckoutCartView",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "da605b6e-6dee-4c53-8d81-f04d0840e949",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1200x900",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "33d90fd0-9262-45f1-a045-b9298d196424",
+      "comment": "",
+      "command": "click",
+      "target": "id=search-field",
+      "targets": [
+        ["id=search-field", "id"],
+        ["name=keyword", "name"],
+        ["css=#search-field", "css:finder"],
+        ["xpath=//input[@id='search-field']", "xpath:attributes"],
+        ["xpath=//form[@id='formcatsearch']/div[2]/span[2]/input[2]", "xpath:idRelative"],
+        ["xpath=//span[2]/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0973f399-a832-44c8-82de-b36f26535755",
+      "comment": "",
+      "command": "type",
+      "target": "id=search-field",
+      "targets": [
+        ["id=search-field", "id"],
+        ["name=keyword", "name"],
+        ["css=#search-field", "css:finder"],
+        ["xpath=//input[@id='search-field']", "xpath:attributes"],
+        ["xpath=//form[@id='formcatsearch']/div[2]/span[2]/input[2]", "xpath:idRelative"],
+        ["xpath=//span[2]/input[2]", "xpath:position"]
+      ],
+      "value": "chair"
+    }, {
+      "id": "92393c66-ac2c-423a-8af1-71c91cc554b8",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=search-field",
+      "targets": [
+        ["id=search-field", "id"],
+        ["name=keyword", "name"],
+        ["css=#search-field", "css:finder"],
+        ["xpath=//input[@id='search-field']", "xpath:attributes"],
+        ["xpath=//form[@id='formcatsearch']/div[2]/span[2]/input[2]", "xpath:idRelative"],
+        ["xpath=//span[2]/input[2]", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "c3bc33d4-740d-4be2-8468-df10974a50f9",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#add-0 > .co-expand",
+      "targets": [
+        ["css=#add-0 > .co-expand", "css:finder"],
+        ["xpath=//button[@id='add-0']/i", "xpath:idRelative"],
+        ["xpath=//button[2]/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c3e32ced-497d-4486-806e-523779bf488c",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#add-0 > .co-expand",
+      "targets": [
+        ["css=#add-0 > .co-expand", "css:finder"],
+        ["xpath=//button[@id='add-0']/i", "xpath:idRelative"],
+        ["xpath=//button[2]/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9de46a7f-2c41-4d0e-a0dc-bca9e7d25292",
+      "comment": "",
+      "command": "click",
+      "target": "css=#add-1 > .co-expand",
+      "targets": [
+        ["css=#add-1 > .co-expand", "css:finder"],
+        ["xpath=//button[@id='add-1']/i", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div[2]/div[3]/form/div/div/div/div/div/button[2]/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9fe85e61-57dc-42f4-9f3b-8b1058437283",
+      "comment": "",
+      "command": "click",
+      "target": "id=addbutton-1",
+      "targets": [
+        ["id=addbutton-1", "id"],
+        ["css=#addbutton-1", "css:finder"],
+        ["xpath=//button[@id='addbutton-1']", "xpath:attributes"],
+        ["xpath=//div[@id='addButtonContainer-1']/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div[2]/div[3]/form/div/div/div/div/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b5131ac2-0afa-43e0-a41d-04dc658b0fe2",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.product:nth-child(2) .ratings > .col-xs-12",
+      "targets": [
+        ["css=.product:nth-child(2) .ratings > .col-xs-12", "css:finder"],
+        ["xpath=//div[@id='search-results']/div[4]/div[2]/div/div[2]/div[2]/div/div[3]/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div[2]/div/div[3]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b53c6ae9-a8e0-4e1c-8e62-14ee09f35a40",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.product:nth-child(2) .ratings > .col-xs-12",
+      "targets": [
+        ["css=.product:nth-child(2) .ratings > .col-xs-12", "css:finder"],
+        ["xpath=//div[@id='search-results']/div[4]/div[2]/div/div[2]/div[2]/div/div[3]/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div[2]/div/div[3]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2719a9d0-ab04-4d49-9385-8787e493487f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=price-1592845",
+      "targets": [
+        ["id=price-1592845", "id"],
+        ["css=#price-1592845", "css:finder"],
+        ["xpath=//div[@id='price-1592845']", "xpath:attributes"],
+        ["xpath=//div[@id='search-results']/div[4]/div[2]/div/div[2]/div[2]/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div[2]/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "013340d7-c05b-4cdb-9f39-c8e953e37a03",
+      "comment": "",
+      "command": "click",
+      "target": "id=item-in-cart-1",
+      "targets": [
+        ["id=item-in-cart-1", "id"],
+        ["css=#item-in-cart-1", "css:finder"],
+        ["xpath=//div[@id='item-in-cart-1']", "xpath:attributes"],
+        ["xpath=//form[@id='AddToCartForm-1']/div/div/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div[2]/div[3]/form/div/div/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a129cd7f-f50f-44e3-b562-736d80e5b043",
+      "comment": "",
+      "command": "click",
+      "target": "id=item-in-cart-1",
+      "targets": [
+        ["id=item-in-cart-1", "id"],
+        ["css=#item-in-cart-1", "css:finder"],
+        ["xpath=//div[@id='item-in-cart-1']", "xpath:attributes"],
+        ["xpath=//form[@id='AddToCartForm-1']/div/div/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div[2]/div[3]/form/div/div/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "06ab14ad-0a01-44df-8844-811821429cd3",
+      "comment": "",
+      "command": "click",
+      "target": "id=item-in-cart-1",
+      "targets": [
+        ["id=item-in-cart-1", "id"],
+        ["css=#item-in-cart-1", "css:finder"],
+        ["xpath=//div[@id='item-in-cart-1']", "xpath:attributes"],
+        ["xpath=//form[@id='AddToCartForm-1']/div/div/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div[2]/div[3]/form/div/div/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ba188394-8805-443c-838d-c49415899fc0",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=item-in-cart-1",
+      "targets": [
+        ["id=item-in-cart-1", "id"],
+        ["css=#item-in-cart-1", "css:finder"],
+        ["xpath=//div[@id='item-in-cart-1']", "xpath:attributes"],
+        ["xpath=//form[@id='AddToCartForm-1']/div/div/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div[2]/div[3]/form/div/div/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4c95dea0-5c09-41d7-aba2-dd43f0dee621",
+      "comment": "",
+      "command": "click",
+      "target": "id=item-in-cart-1",
+      "targets": [
+        ["id=item-in-cart-1", "id"],
+        ["css=#item-in-cart-1", "css:finder"],
+        ["xpath=//div[@id='item-in-cart-1']", "xpath:attributes"],
+        ["xpath=//form[@id='AddToCartForm-1']/div/div/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div[2]/div[3]/form/div/div/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "139c7e3e-7eff-4cf3-bd50-a01ec5a44392",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=item-in-cart-1",
+      "targets": [
+        ["id=item-in-cart-1", "id"],
+        ["css=#item-in-cart-1", "css:finder"],
+        ["xpath=//div[@id='item-in-cart-1']", "xpath:attributes"],
+        ["xpath=//form[@id='AddToCartForm-1']/div/div/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div[2]/div[3]/form/div/div/div/div[2]/div", "xpath:position"]
+      ],
+      "value": "2 in Cart"
+    }]
+  }, {
+    "id": "a867170a-baa6-4000-befe-54fe8e075780",
+    "name": "Search for \"men's clothing\" for filtered search",
+    "commands": [{
+      "id": "8bf10252-8768-480b-a9ff-f25dcac23804",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "105c9c10-0a38-46e3-85f0-8ece84ae8246",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1200x900",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b1bdd191-96b7-4857-9914-9ff670b3e9d2",
+      "comment": "",
+      "command": "click",
+      "target": "id=search-field",
+      "targets": [
+        ["id=search-field", "id"],
+        ["css=#search-field", "css:finder"],
+        ["xpath=//input[@id='search-field']", "xpath:attributes"],
+        ["xpath=//form[@id='formcatsearch']/div[2]/span[2]/input[2]", "xpath:idRelative"],
+        ["xpath=//span[2]/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bd957bf9-22f7-4c16-9f45-dc715af3083c",
+      "comment": "",
+      "command": "type",
+      "target": "id=search-field",
+      "targets": [
+        ["id=search-field", "id"],
+        ["css=#search-field", "css:finder"],
+        ["xpath=//input[@id='search-field']", "xpath:attributes"],
+        ["xpath=//form[@id='formcatsearch']/div[2]/span[2]/input[2]", "xpath:idRelative"],
+        ["xpath=//span[2]/input[2]", "xpath:position"]
+      ],
+      "value": "men's clothing"
+    }, {
+      "id": "16e24fa9-0289-457b-b87c-c513dddf1cec",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=search-field",
+      "targets": [
+        ["id=search-field", "id"],
+        ["css=#search-field", "css:finder"],
+        ["xpath=//input[@id='search-field']", "xpath:attributes"],
+        ["xpath=//form[@id='formcatsearch']/div[2]/span[2]/input[2]", "xpath:idRelative"],
+        ["xpath=//span[2]/input[2]", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "0759d602-2200-4397-87f6-0140712f9a01",
+      "comment": "",
+      "command": "click",
+      "target": "id=rsltCntMsg",
+      "targets": [
+        ["id=rsltCntMsg", "id"],
+        ["css=#rsltCntMsg", "css:finder"],
+        ["xpath=//h1[@id='rsltCntMsg']", "xpath:attributes"],
+        ["xpath=//div[@id='search-results']/div/h1[2]", "xpath:idRelative"],
+        ["xpath=//h1[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d5411780-391d-49eb-a558-840a7184d164",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=rsltCntMsg",
+      "targets": [
+        ["id=rsltCntMsg", "id"],
+        ["css=#rsltCntMsg", "css:finder"],
+        ["xpath=//h1[@id='rsltCntMsg']", "xpath:attributes"],
+        ["xpath=//div[@id='search-results']/div/h1[2]", "xpath:idRelative"],
+        ["xpath=//h1[2]", "xpath:position"]
+      ],
+      "value": "We found 166 results for \"men's clothing\""
+    }]
+  }, {
+    "id": "08413653-87af-4f89-beb3-572a8fb14899",
+    "name": "Add regular price to cart",
+    "commands": [{
+      "id": "488a3551-0628-4970-8716-56973a2ed338",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "36aba323-85f1-4e77-84c0-33b83dcc347d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1200x900",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "860ba5de-b4bc-4521-8b5a-d910b0eeebf3",
+      "comment": "",
+      "command": "click",
+      "target": "id=search-field",
+      "targets": [
+        ["id=search-field", "id"],
+        ["css=#search-field", "css:finder"],
+        ["xpath=//input[@id='search-field']", "xpath:attributes"],
+        ["xpath=//form[@id='formcatsearch']/div[2]/span[2]/input[2]", "xpath:idRelative"],
+        ["xpath=//span[2]/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e7876ee6-7dcb-4e08-bc13-bdd22d124d64",
+      "comment": "",
+      "command": "type",
+      "target": "id=search-field",
+      "targets": [
+        ["id=search-field", "id"],
+        ["css=#search-field", "css:finder"],
+        ["xpath=//input[@id='search-field']", "xpath:attributes"],
+        ["xpath=//form[@id='formcatsearch']/div[2]/span[2]/input[2]", "xpath:idRelative"],
+        ["xpath=//span[2]/input[2]", "xpath:position"]
+      ],
+      "value": "bike"
+    }, {
+      "id": "ee14bfdc-422c-40ec-82a0-bc191107c0f6",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=search-field",
+      "targets": [
+        ["id=search-field", "id"],
+        ["css=#search-field", "css:finder"],
+        ["xpath=//input[@id='search-field']", "xpath:attributes"],
+        ["xpath=//form[@id='formcatsearch']/div[2]/span[2]/input[2]", "xpath:idRelative"],
+        ["xpath=//span[2]/input[2]", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "8f8a11ee-2ce6-4e75-b2a5-1ec8edf77fe5",
+      "comment": "",
+      "command": "click",
+      "target": "id=addbutton-0",
+      "targets": [
+        ["id=addbutton-0", "id"],
+        ["name=add-to-cart", "name"],
+        ["css=#addbutton-0", "css:finder"],
+        ["xpath=//button[@id='addbutton-0']", "xpath:attributes"],
+        ["xpath=//div[@id='addButtonContainer-0']/button", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Add')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ca0cb8dd-c37d-4805-9811-49ca90df0ae5",
+      "comment": "",
+      "command": "click",
+      "target": "id=cart-d",
+      "targets": [
+        ["id=cart-d", "id"],
+        ["css=#cart-d", "css:finder"],
+        ["xpath=//a[@id='cart-d']", "xpath:attributes"],
+        ["xpath=//header[@id='header-widget']/div[2]/div/div/div/div[2]/div/div[4]/nav/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/CheckoutCartView')])[2]", "xpath:href"],
+        ["xpath=//div[4]/nav/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "93c05562-4e74-4f83-8995-4f0ff3180c31",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row:nth-child(3) > .col-xl-7 > .row:nth-child(1)",
+      "targets": [
+        ["css=.row:nth-child(3) > .col-xl-7 > .row:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='order-item_1']/div/div/div", "xpath:idRelative"],
+        ["xpath=//form/div/div/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6b95a57d-b0a4-4624-b526-334fba65ef68",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.product-price > .price",
+      "targets": [
+        ["css=.product-price > .price", "css:finder"],
+        ["xpath=//div[@id='order-item_1']/div/div/div/div[2]/div[4]/div/div/div/span", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'$199.99')]", "xpath:innerText"]
+      ],
+      "value": "$199.99"
+    }]
+  }, {
+    "id": "783b1db1-9cca-4854-bf29-4114769007d5",
+    "name": "Search for \"Chair\"",
+    "commands": [{
+      "id": "9068bbd3-ffba-46d1-aad6-cb88e0f83ae3",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "470b4ac5-de90-4c39-8f68-3468105cc607",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1200x900",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c04774db-0ff6-44dd-9bc4-c226592ab1c6",
+      "comment": "",
+      "command": "click",
+      "target": "id=search-field",
+      "targets": [
+        ["id=search-field", "id"],
+        ["css=#search-field", "css:finder"],
+        ["xpath=//input[@id='search-field']", "xpath:attributes"],
+        ["xpath=//form[@id='formcatsearch']/div[2]/span[2]/input[2]", "xpath:idRelative"],
+        ["xpath=//span[2]/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "77fe7095-ff48-46a1-ba0d-d2b871137112",
+      "comment": "",
+      "command": "type",
+      "target": "id=search-field",
+      "targets": [
+        ["id=search-field", "id"],
+        ["css=#search-field", "css:finder"],
+        ["xpath=//input[@id='search-field']", "xpath:attributes"],
+        ["xpath=//form[@id='formcatsearch']/div[2]/span[2]/input[2]", "xpath:idRelative"],
+        ["xpath=//span[2]/input[2]", "xpath:position"]
+      ],
+      "value": "chair"
+    }, {
+      "id": "17a6df6c-a97a-4100-ae62-f9ca88c60065",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=search-field",
+      "targets": [
+        ["id=search-field", "id"],
+        ["css=#search-field", "css:finder"],
+        ["xpath=//input[@id='search-field']", "xpath:attributes"],
+        ["xpath=//form[@id='formcatsearch']/div[2]/span[2]/input[2]", "xpath:idRelative"],
+        ["xpath=//span[2]/input[2]", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "94dd09f4-2a66-4df1-b723-5d1637493e89",
+      "comment": "",
+      "command": "click",
+      "target": "id=rsltCntMsg",
+      "targets": [
+        ["id=rsltCntMsg", "id"],
+        ["css=#rsltCntMsg", "css:finder"],
+        ["xpath=//h1[@id='rsltCntMsg']", "xpath:attributes"],
+        ["xpath=//div[@id='search-results']/div/h1[2]", "xpath:idRelative"],
+        ["xpath=//h1[2]", "xpath:position"],
+        ["xpath=//h1[contains(.,'We found 324 results for \"chair\"')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "79929edb-ba77-481a-ac2f-5171b4525023",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=rsltCntMsg",
+      "targets": [
+        ["id=rsltCntMsg", "id"],
+        ["css=#rsltCntMsg", "css:finder"],
+        ["xpath=//h1[@id='rsltCntMsg']", "xpath:attributes"],
+        ["xpath=//div[@id='search-results']/div/h1[2]", "xpath:idRelative"],
+        ["xpath=//h1[2]", "xpath:position"],
+        ["xpath=//h1[contains(.,'We found 324 results for \"chair\"')]", "xpath:innerText"]
+      ],
+      "value": "We found 324 results for \"chair\""
+    }]
+  }, {
+    "id": "d1791847-4161-47be-96e8-d7f549da47c7",
+    "name": "\"Join Now\" in footer",
+    "commands": [{
+      "id": "000b3e87-61eb-4b2d-bb8d-27bb447ca4bf",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d1306a50-a5bd-4fc0-9521-6c5d45dbbf4e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1200x900",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7b050449-47e4-4885-8bc6-fdd6a15d9f65",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#slick-slide00 > .visible-xl",
+      "targets": [
+        ["css=#slick-slide00 > .visible-xl", "css:finder"],
+        ["xpath=//img[@alt='Gear up for Outdoor Adventures!\nWhile quantities last\nShop now']", "xpath:img"],
+        ["xpath=//a[@id='slick-slide00']/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/a[2]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "16eddb5e-0d7d-4ae7-9629-73e92e9b0fb3",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,7)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d803fa93-bddd-4bf7-b230-8ab46b2c6675",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#slick-slide00 > .visible-xl",
+      "targets": [
+        ["css=#slick-slide00 > .visible-xl", "css:finder"],
+        ["xpath=//img[@alt='Gear up for Outdoor Adventures!\nWhile quantities last\nShop now']", "xpath:img"],
+        ["xpath=//a[@id='slick-slide00']/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/a[2]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2bcd3546-00c9-4832-a825-80e0225f55b7",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Join Now",
+      "targets": [
+        ["linkText=Join Now", "linkText"],
+        ["css=.col-sm-3 > .membership > li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Join Now')]", "xpath:link"],
+        ["xpath=//div[@id='footer-list']/div/div[2]/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/join-costco.html')])[6]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Join Now')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "20cd4aa1-3e0e-4c71-8899-64fe55174915",
+      "comment": "",
+      "command": "click",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//div[@id='joinCostco-lp']/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Membership')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1ac19a27-3a91-47bd-9033-25a7116e7aad",
+      "comment": "",
+      "command": "click",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//div[@id='joinCostco-lp']/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Membership')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "57462c3f-0516-4350-9481-190a261be53a",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//div[@id='joinCostco-lp']/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Membership')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a9b71aa6-e90c-486f-960f-390c4f0c02a7",
+      "comment": "",
+      "command": "click",
+      "target": "id=crumbs_ul",
+      "targets": [
+        ["id=crumbs_ul", "id"],
+        ["css=#crumbs_ul", "css:finder"],
+        ["xpath=//ol[@id='crumbs_ul']", "xpath:attributes"],
+        ["xpath=//main[@id='tiles-body-attribute']/div[3]/div/div/div/ol", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/ol", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8aa39b3e-2ac6-43fc-9e30-087bf372b78f",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.page",
+      "targets": [
+        ["css=.page", "css:finder"],
+        ["xpath=//main[@id='tiles-body-attribute']/div[3]", "xpath:idRelative"],
+        ["xpath=//main/div[3]", "xpath:position"]
+      ],
+      "value": "Home Join Costco\\nMembership\\nChoose your membership type:\\nPersonal Membership\\nBusiness Membership\\nBEST VALUE\\nExecutive\\n$120\\nAnnual membership fee*\\nBuy New Membership\\nRenew your Membership\\nGet a $60 statement credit with the CIBC® Costco Mastercard® *Conditions apply\\nLearn more\\nShop all Costco locations worldwide and online at Costco.ca\\nIncluded\\nIncludes two membership cards - for you and for someone in your household†\\nIncluded\\nAnnual 2% reward on qualified warehouse, online and Costco Travel purchases¹\\nIncluded\\nExclusive offers and additional discounts\\nIncluded\\nReceive Costco Connection magazine and Costco.ca insert by mail\\nIncluded\\n  Gold Star\\n$60\\nAnnual membership fee*\\nBuy New Membership\\nRenew your Membership\\nShop all Costco locations worldwide and online at Costco.ca\\nIncluded\\nIncludes two membership cards - for you and for someone in your household†\\nIncluded\\nAnnual 2% reward on qualified warehouse, online and Costco Travel purchases¹\\nNot Included\\nExclusive offers and additional discounts\\nNot Included\\nReceive Costco Connection magazine and Costco.ca insert by mail\\nNot Included\\nWhy Costco?\\nValid at all locations worldwide\\nPurchase products and services at any Costco worldwide.\\nAccess to while-you-shop services\\nSuch as Tire Centre, Hearing Aid Centre**, Optical** and Pharmacy** services.\\nCostco Grocery\\nNon-perishable food and household supplies. Available within qualified delivery areas in Canada.\\nKirkland Signature Brand\\nWe’ve created an exclusive range of products that reflect our members’ tastes and exceed their expectations.\\nShop Costco.ca\\nShipping included on thousands of items you won't find at your local warehouse.\\nShop Costco Travel\\nWe'll help you create an amazing vacation experience. Visit CostcoTravel.ca.\\n\\nLegal footnote\\n*Plus applicable taxes.\\nNeed help signing up? Contact Us\\nRead our Membership Conditions & Regulations and Privacy Policy\\n100% SATISFACTION GUARANTEE. If you are not satisfied with your membership, you’ll get a full refund on your membership fee.\\n†Primary and Affiliate Members receive one free Household Card for anyone over the age of 18 and living at the same address.\\n¹Annual 2% Reward on most Costco purchases, up to a maximum of $1,000. You must remain an Executive Member to receive the annual 2% Reward. See annual 2% Reward terms and conditions for a complete list of exclusions.\\n²Add up to 6 additional membership cards (including a free Household card†) at $60 each per year (+ applicable taxes) applies to Business Memberships only.\\n³Available to owners or operators of businesses who want the benefits of a Costco Business Membership, with the added value of an Executive Membership. Business Members who wish to purchase items for resale must provide Costco with the appropriate resale information.\\n**Select locations only. Opti-Club optical centres in Costco’s Quebec locations are owned and operated by Melissa B. Goyer, independent optician. Pharmacies in Costco’s Quebec locations are independently owned and operated by pharmacists."
+    }]
+  }, {
+    "id": "e5ca7d78-f541-413a-b5c9-c35ffc01e876",
+    "name": "\"Grocery\" in main navbar",
+    "commands": [{
+      "id": "eb70fc6f-69b0-47ec-83f2-8d14df29a57a",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "879ab419-a6dd-4656-9f92-0a96eb91b9ae",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1200x900",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c67eacdd-f486-471f-8e5c-206cf2daeb16",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=Home_Ancillary_4",
+      "targets": [
+        ["id=Home_Ancillary_4", "id"],
+        ["linkText=Services", "linkText"],
+        ["css=#Home_Ancillary_4", "css:finder"],
+        ["xpath=(//a[contains(text(),'Services')])[4]", "xpath:link"],
+        ["xpath=//a[@id='Home_Ancillary_4']", "xpath:attributes"],
+        ["xpath=//div[@id='navigation-widget']/div/nav/div[5]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/costco-services.html')])[4]", "xpath:href"],
+        ["xpath=//div[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8e924055-db16-4b91-af34-99b5a7eb4346",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=Home_Ancillary_4",
+      "targets": [
+        ["id=Home_Ancillary_4", "id"],
+        ["linkText=Services", "linkText"],
+        ["css=#Home_Ancillary_4", "css:finder"],
+        ["xpath=(//a[contains(text(),'Services')])[4]", "xpath:link"],
+        ["xpath=//a[@id='Home_Ancillary_4']", "xpath:attributes"],
+        ["xpath=//div[@id='navigation-widget']/div/nav/div[5]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/costco-services.html')])[4]", "xpath:href"],
+        ["xpath=//div[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8683013a-2e46-48bc-8f71-4c9f0a142d1a",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=Home_Ancillary_0",
+      "targets": [
+        ["id=Home_Ancillary_0", "id"],
+        ["linkText=Grocery", "linkText"],
+        ["css=#Home_Ancillary_0", "css:finder"],
+        ["xpath=(//a[contains(text(),'Grocery')])[6]", "xpath:link"],
+        ["xpath=//a[@id='Home_Ancillary_0']", "xpath:attributes"],
+        ["xpath=//div[@id='navigation-widget']/div/nav/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/grocery-household.html')])[7]", "xpath:href"],
+        ["xpath=//nav/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d306b722-77c7-47b3-bfab-d41951d5ca56",
+      "comment": "",
+      "command": "click",
+      "target": "id=Home_Ancillary_0",
+      "targets": [
+        ["id=Home_Ancillary_0", "id"],
+        ["linkText=Grocery", "linkText"],
+        ["css=#Home_Ancillary_0", "css:finder"],
+        ["xpath=(//a[contains(text(),'Grocery')])[6]", "xpath:link"],
+        ["xpath=//a[@id='Home_Ancillary_0']", "xpath:attributes"],
+        ["xpath=//div[@id='navigation-widget']/div/nav/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/grocery-household.html')])[7]", "xpath:href"],
+        ["xpath=//nav/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "41cdd14e-30d7-401a-8b5e-3d3b935a266a",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//div[@id='search-results']/div/div[2]/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"]
+      ],
+      "value": "384,21.1953125"
+    }, {
+      "id": "d2fe795c-1480-4818-9472-f084ffdfb534",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//div[@id='search-results']/div/div[2]/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"]
+      ],
+      "value": "384,21.1953125"
+    }, {
+      "id": "261191fa-cda0-4682-b308-0937d71161d5",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//div[@id='search-results']/div/div[2]/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"]
+      ],
+      "value": "384,21.1953125"
+    }, {
+      "id": "eef3cd07-12df-4325-8e8d-69b65cdae888",
+      "comment": "",
+      "command": "click",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//div[@id='search-results']/div/div[2]/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "65c7cd5e-4dac-4e4e-8415-eff0f3304322",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=#slick-slide10 .ratings > .col-xs-12",
+      "targets": [
+        ["css=#slick-slide10 .ratings > .col-xs-12", "css:finder"],
+        ["xpath=//div[@id='slick-slide10']/div/div[2]/div[2]/div[3]/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div[3]/div/div", "xpath:position"]
+      ],
+      "value": "161.16979026794434,4.2734375"
+    }, {
+      "id": "91e3c4c1-0f3e-4f90-ba8b-225a4e5f7878",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=#slick-slide11 .ratings > .col-xs-12",
+      "targets": [
+        ["css=#slick-slide11 .ratings > .col-xs-12", "css:finder"],
+        ["xpath=//div[@id='slick-slide11']/div/div[2]/div[2]/div[3]/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div[2]/div[3]/div/div", "xpath:position"]
+      ],
+      "value": "16.169784545898438,26.125"
+    }, {
+      "id": "4cd81f6a-d061-4d94-9d74-c17dc8e4b24f",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=#slick-slide11 .ratings > .col-xs-12",
+      "targets": [
+        ["css=#slick-slide11 .ratings > .col-xs-12", "css:finder"],
+        ["xpath=//div[@id='slick-slide11']/div/div[2]/div[2]/div[3]/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div[2]/div[3]/div/div", "xpath:position"]
+      ],
+      "value": "16.169784545898438,26.125"
+    }, {
+      "id": "2a526e04-f6f4-471f-b53f-e6a91079d7ec",
+      "comment": "",
+      "command": "click",
+      "target": "css=#grocery-household-v2_slot_4_content .slick-track",
+      "targets": [
+        ["css=#grocery-household-v2_slot_4_content .slick-track", "css:finder"],
+        ["xpath=//div[@id='grocery-household-v2_slot_4_content']/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]/div/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f9cc8ab4-7ce4-47ff-8716-00a021b1d982",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Northfork Meats - Venison Tenderloin 350 g (12.3 oz) x 4 tenderloins",
+      "targets": [
+        ["linkText=Northfork Meats - Venison Tenderloin 350 g (12.3 oz) x 4 tenderloins", "linkText"],
+        ["css=#slick-slide10 .caption a", "css:finder"],
+        ["xpath=//a[contains(text(),'Northfork Meats - Venison Tenderloin 350 g (12.3 oz) x 4 tenderloins')]", "xpath:link"],
+        ["xpath=//div[@id='slick-slide10']/div/div[2]/div[2]/span/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.costco.ca/northfork-meats---venison-tenderloin-350-g-(12.3-oz)-x-4-tenderloins.product.100418346.html')])[2]", "xpath:href"],
+        ["xpath=//span/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Northfork Meats - Venison Tenderloin 350 g (12.3 oz) x 4 tenderloins')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d2224b6b-ae77-4451-90f8-e81c2a7c9c97",
+      "comment": "",
+      "command": "click",
+      "target": "css=h1:nth-child(2)",
+      "targets": [
+        ["css=h1:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='product-details']/div/div/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Northfork Meats - Venison Tenderloin 350 g (12.3 oz) x 4 tenderloins')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "10f9dd70-8ef3-4315-89cc-73a2195d49e3",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=h1:nth-child(2)",
+      "targets": [
+        ["css=h1:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='product-details']/div/div/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Northfork Meats - Venison Tenderloin 350 g (12.3 oz) x 4 tenderloins')]", "xpath:innerText"]
+      ],
+      "value": "Northfork Meats - Venison Tenderloin 350 g (12.3 oz) x 4 tenderloins"
+    }]
+  }],
+  "suites": [{
+    "id": "1ad6aad3-0e9a-4310-9d53-04ed6696714d",
+    "name": "Adding to cart",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["ca06f08b-ca65-4b35-8866-69b66eb3df5f", "08413653-87af-4f89-beb3-572a8fb14899"]
+  }, {
+    "id": "5ce972be-5714-45e7-aa43-6865a328ebf9",
+    "name": "Navigation",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["d1791847-4161-47be-96e8-d7f549da47c7", "e5ca7d78-f541-413a-b5c9-c35ffc01e876"]
+  }, {
+    "id": "c9178fc5-f236-4dcc-9b6e-17b7f10e7398",
+    "name": "Search",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["783b1db1-9cca-4854-bf29-4114769007d5", "a867170a-baa6-4000-befe-54fe8e075780"]
+  }],
+  "urls": ["https://www.costco.ca/"],
+  "plugins": []
+}

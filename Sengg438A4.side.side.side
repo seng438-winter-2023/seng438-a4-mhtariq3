@@ -1,0 +1,896 @@
+{
+  "id": "40d53b8f-5b60-4e6e-99c5-e8c055bd413b",
+  "version": "2.0",
+  "name": "Sengg438A4",
+  "url": "https://www.costco.ca",
+  "tests": [{
+    "id": "2af66fba-87ba-4961-a37a-6f5187a1ed60",
+    "name": "validLogin",
+    "commands": [{
+      "id": "15c88a79-bc6c-45fb-be2e-f302ed7dacd8",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "93480569-b279-4755-bf03-dc4ae83a7a3a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x1080",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6cd2fc47-d01d-4243-889c-4394d29db5de",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=header_order_and_returns",
+      "targets": [
+        ["id=header_order_and_returns", "id"],
+        ["linkText=Orders & Returns", "linkText"],
+        ["css=#header_order_and_returns", "css:finder"],
+        ["xpath=//a[contains(text(),'Orders & Returns')]", "xpath:link"],
+        ["xpath=//a[@id='header_order_and_returns']", "xpath:attributes"],
+        ["xpath=//header[@id='header-widget']/div[2]/div/div/div/div[2]/div/div[4]/nav/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.costco.ca/OrderStatusCmd?fromYear=2022&fromMonth=9&toYear=2023&toMonth=2')]", "xpath:href"],
+        ["xpath=//div[4]/nav/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Orders & Returns')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "68f70989-fa89-44dd-85d2-2a00dd88227b",
+      "comment": "",
+      "command": "click",
+      "target": "id=header_sign_in",
+      "targets": [
+        ["id=header_sign_in", "id"],
+        ["linkText=Sign In / Register", "linkText"],
+        ["css=#header_sign_in", "css:finder"],
+        ["xpath=//a[contains(text(),'Sign In / Register')]", "xpath:link"],
+        ["xpath=//a[@id='header_sign_in']", "xpath:attributes"],
+        ["xpath=//header[@id='header-widget']/div[2]/div/div/div/div[2]/div/div[4]/nav/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.costco.ca/LogonForm')])[2]", "xpath:href"],
+        ["xpath=//div[4]/nav/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sign In / Register')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6429df02-5208-4252-96d3-83e8693bfe81",
+      "comment": "",
+      "command": "type",
+      "target": "id=signInName",
+      "targets": [
+        ["id=signInName", "id"],
+        ["name=Sign in name", "name"],
+        ["css=#signInName", "css:finder"],
+        ["xpath=//input[@id='signInName']", "xpath:attributes"],
+        ["xpath=//form[@id='localAccountForm']/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "vrund148@gmail.com"
+    }, {
+      "id": "900b8e36-b582-470f-9bb5-fabde761685b",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=Password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='localAccountForm']/div[3]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "Password1!"
+    }, {
+      "id": "22e58958-783e-48a2-a4be-364b38032ae8",
+      "comment": "",
+      "command": "click",
+      "target": "id=next",
+      "targets": [
+        ["id=next", "id"],
+        ["css=#next", "css:finder"],
+        ["xpath=//button[@id='next']", "xpath:attributes"],
+        ["xpath=//form[@id='localAccountForm']/div[3]/div[5]/button", "xpath:idRelative"],
+        ["xpath=//div[5]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Sign In')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2eab82a5-3b1d-4a56-853f-f4c0740dbe0c",
+      "comment": "",
+      "command": "click",
+      "target": "id=myaccount-react-d",
+      "targets": [
+        ["id=myaccount-react-d", "id"],
+        ["css=#myaccount-react-d", "css:finder"],
+        ["xpath=//button[@id='myaccount-react-d']", "xpath:attributes"],
+        ["xpath=//header[@id='header-widget']/div[2]/div/div/div/div[2]/div/div[4]/nav/ul/li/button", "xpath:idRelative"],
+        ["xpath=//li/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1b336ac7-ef2f-452b-b3da-f5f582b3e015",
+      "comment": "",
+      "command": "click",
+      "target": "css=#mi_1 .MuiTypography-root",
+      "targets": [
+        ["css=#mi_1 .MuiTypography-root", "css:finder"],
+        ["xpath=//li[@id='mi_1']/a/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/ul/li/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Account Home')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3188da24-de79-4848-92c9-7ca8f554f49a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-xwrb62",
+      "targets": [
+        ["css=.css-xwrb62", "css:finder"],
+        ["xpath=//div[@id='accountHome']/div/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Account Home')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3a501a6c-c6ab-4e47-af3a-ce247b3efb8c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-xwrb62",
+      "targets": [
+        ["css=.css-xwrb62", "css:finder"],
+        ["xpath=//div[@id='accountHome']/div/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Account Home')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5aa7fb8b-5c40-455d-9db4-1d25c6ffc193",
+      "comment": "",
+      "command": "click",
+      "target": "id=accountHome",
+      "targets": [
+        ["id=accountHome", "id"],
+        ["css=#accountHome", "css:finder"],
+        ["xpath=//div[@id='accountHome']", "xpath:attributes"],
+        ["xpath=//main[@id='tiles-body-attribute']/div[4]/div", "xpath:idRelative"],
+        ["xpath=//main/div[4]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c68509a9-61ea-41f1-af31-6343bdd5d09f",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.css-xwrb62",
+      "targets": [
+        ["css=.css-xwrb62", "css:finder"],
+        ["xpath=//div[@id='accountHome']/div/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Account Home')]", "xpath:innerText"]
+      ],
+      "value": "Account Home"
+    }, {
+      "id": "88dc07cd-3063-4801-88d8-aff019dceb2c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-xwrb62",
+      "targets": [
+        ["css=.css-xwrb62", "css:finder"],
+        ["xpath=//div[@id='accountHome']/div/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Account Home')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "8d33c8e0-7ca6-45a3-9fda-82cfb3958a72",
+    "name": "invalidLogin",
+    "commands": [{
+      "id": "590d4fe8-51b5-47cd-8b74-019a91ee1411",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b1793a5b-3d78-4776-8e00-b47a2ceb5bef",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x1055",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bc05a7f1-11e7-48df-b224-13168ac9a394",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=header_sign_in",
+      "targets": [
+        ["id=header_sign_in", "id"],
+        ["linkText=Sign In / Register", "linkText"],
+        ["css=#header_sign_in", "css:finder"],
+        ["xpath=//a[contains(text(),'Sign In / Register')]", "xpath:link"],
+        ["xpath=//a[@id='header_sign_in']", "xpath:attributes"],
+        ["xpath=//header[@id='header-widget']/div[2]/div/div/div/div[2]/div/div[4]/nav/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.costco.ca/LogonForm')])[2]", "xpath:href"],
+        ["xpath=//div[4]/nav/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sign In / Register')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "635c2115-fe61-4b51-a7df-a66ea977dc32",
+      "comment": "",
+      "command": "click",
+      "target": "id=header_sign_in",
+      "targets": [
+        ["id=header_sign_in", "id"],
+        ["linkText=Sign In / Register", "linkText"],
+        ["css=#header_sign_in", "css:finder"],
+        ["xpath=//a[contains(text(),'Sign In / Register')]", "xpath:link"],
+        ["xpath=//a[@id='header_sign_in']", "xpath:attributes"],
+        ["xpath=//header[@id='header-widget']/div[2]/div/div/div/div[2]/div/div[4]/nav/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.costco.ca/LogonForm')])[2]", "xpath:href"],
+        ["xpath=//div[4]/nav/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sign In / Register')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fa102028-2140-45c6-a0b1-ccacc715bca3",
+      "comment": "",
+      "command": "type",
+      "target": "id=signInName",
+      "targets": [
+        ["id=signInName", "id"],
+        ["name=Sign in name", "name"],
+        ["css=#signInName", "css:finder"],
+        ["xpath=//input[@id='signInName']", "xpath:attributes"],
+        ["xpath=//form[@id='localAccountForm']/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "vrund148@gmail.com"
+    }, {
+      "id": "94798ffb-1e6f-4116-b5b3-2957904bcd1c",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=Password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='localAccountForm']/div[3]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "randompass"
+    }, {
+      "id": "6f4fd7f4-3429-4a90-9cc0-213d99a0a679",
+      "comment": "",
+      "command": "click",
+      "target": "id=next",
+      "targets": [
+        ["id=next", "id"],
+        ["css=#next", "css:finder"],
+        ["xpath=//button[@id='next']", "xpath:attributes"],
+        ["xpath=//form[@id='localAccountForm']/div[3]/div[5]/button", "xpath:idRelative"],
+        ["xpath=//div[5]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Sign In')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "831a0bd2-75e8-423a-b3ab-495ca370154e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pageLevel > p",
+      "targets": [
+        ["css=.pageLevel > p", "css:finder"],
+        ["xpath=//form[@id='localAccountForm']/div[2]/p", "xpath:idRelative"],
+        ["xpath=//div[2]/p", "xpath:position"],
+        ["xpath=//p[contains(.,'The email address and/or password you entered are invalid.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "413b99ea-81b5-436a-b5b7-e655ba88a7a9",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.pageLevel > p",
+      "targets": [
+        ["css=.pageLevel > p", "css:finder"],
+        ["xpath=//form[@id='localAccountForm']/div[2]/p", "xpath:idRelative"],
+        ["xpath=//div[2]/p", "xpath:position"],
+        ["xpath=//p[contains(.,'The email address and/or password you entered are invalid.')]", "xpath:innerText"]
+      ],
+      "value": "The email address and/or password you entered are invalid."
+    }]
+  }, {
+    "id": "4cd02586-4d52-4d0c-8536-42f3b8946a73",
+    "name": "findWarehouse",
+    "commands": [{
+      "id": "6544338d-22d2-4c3e-9ca0-4be2c0955d2c",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2878af3a-116d-4a8d-a9e2-2d64ea9e5e61",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x1055",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d6c9a03a-4216-4f3f-8be9-5bc1eeaea80f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Find a Warehouse",
+      "targets": [
+        ["linkText=Find a Warehouse", "linkText"],
+        ["css=.col-sm-3:nth-child(4) li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Find a Warehouse')]", "xpath:link"],
+        ["xpath=//div[@id='footer-list']/div/div[4]/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/warehouse-locations?langId=-24&storeId=10302&catalogId=11201')])[3]", "xpath:href"],
+        ["xpath=//div[2]/div/div[4]/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Find a Warehouse')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2fab14e6-d1d9-4972-86b4-5f09bf9e5e0c",
+      "comment": "",
+      "command": "click",
+      "target": "id=search-warehouse",
+      "targets": [
+        ["id=search-warehouse", "id"],
+        ["name=search_warehouse", "name"],
+        ["css=#search-warehouse", "css:finder"],
+        ["xpath=//input[@id='search-warehouse']", "xpath:attributes"],
+        ["xpath=//div[@id='search-warehouse-container']/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b240553e-7eb6-4a78-bbe7-5b1eb209bc84",
+      "comment": "",
+      "command": "click",
+      "target": "id=search-warehouse",
+      "targets": [
+        ["id=search-warehouse", "id"],
+        ["name=search_warehouse", "name"],
+        ["css=#search-warehouse", "css:finder"],
+        ["xpath=//input[@id='search-warehouse']", "xpath:attributes"],
+        ["xpath=//div[@id='search-warehouse-container']/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "53e648ae-5aa8-46cd-b815-b331953386b8",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=search-warehouse",
+      "targets": [
+        ["id=search-warehouse", "id"],
+        ["name=search_warehouse", "name"],
+        ["css=#search-warehouse", "css:finder"],
+        ["xpath=//input[@id='search-warehouse']", "xpath:attributes"],
+        ["xpath=//div[@id='search-warehouse-container']/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "deb364ca-cf6b-4d2b-92bc-729fe4767b30",
+      "comment": "",
+      "command": "type",
+      "target": "id=search-warehouse",
+      "targets": [
+        ["id=search-warehouse", "id"],
+        ["name=search_warehouse", "name"],
+        ["css=#search-warehouse", "css:finder"],
+        ["xpath=//input[@id='search-warehouse']", "xpath:attributes"],
+        ["xpath=//div[@id='search-warehouse-container']/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/input", "xpath:position"]
+      ],
+      "value": "Calgary"
+    }, {
+      "id": "c88d836f-a6e0-46c4-80d4-66bb0414ed1d",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=search-warehouse",
+      "targets": [
+        ["id=search-warehouse", "id"],
+        ["name=search_warehouse", "name"],
+        ["css=#search-warehouse", "css:finder"],
+        ["xpath=//input[@id='search-warehouse']", "xpath:attributes"],
+        ["xpath=//div[@id='search-warehouse-container']/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "faaa00bc-b13e-477a-b067-4dec61c402b2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.warehouse:nth-child(1) .col-md-7",
+      "targets": [
+        ["css=.warehouse:nth-child(1) .col-md-7", "css:finder"],
+        ["xpath=//table[@id='warehouse-list']/tr/td[2]/div/div", "xpath:idRelative"],
+        ["xpath=//td[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1a252b84-cc8a-411a-b6e8-9d3f644d1ef3",
+      "comment": "",
+      "command": "assertText",
+      "target": "linkText=N Calgary",
+      "targets": [
+        ["linkText=N Calgary", "linkText"],
+        ["css=.active .warehouse-name", "css:finder"],
+        ["xpath=//a[contains(text(),'N Calgary')]", "xpath:link"],
+        ["xpath=//table[@id='warehouse-list']/tr/td[2]/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/warehouse-locations/n-calgary-calgary-ab-56.html')]", "xpath:href"],
+        ["xpath=//td[2]/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'N Calgary')]", "xpath:innerText"]
+      ],
+      "value": "N Calgary"
+    }]
+  }, {
+    "id": "dcc6eea2-f32b-4d30-8566-6d01e133109a",
+    "name": "invalidWarehouse",
+    "commands": [{
+      "id": "f3dbaacb-ad8f-4262-b487-3d39b9580141",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cbe781fa-da0b-4a1b-bdf3-82dd0dc96b82",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x1055",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a1565110-d1d1-4e38-a1ab-971b8fe31cdd",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#slick-slide00 > .visible-xl",
+      "targets": [
+        ["css=#slick-slide00 > .visible-xl", "css:finder"],
+        ["xpath=//img[@alt='Gear up for Outdoor Adventures!\nWhile quantities last\nShop now']", "xpath:img"],
+        ["xpath=//a[@id='slick-slide00']/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/a[2]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "039e132e-c774-43d0-8acc-583b5473de76",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#slick-slide00 > .visible-xl",
+      "targets": [
+        ["css=#slick-slide00 > .visible-xl", "css:finder"],
+        ["xpath=//img[@alt='Gear up for Outdoor Adventures!\nWhile quantities last\nShop now']", "xpath:img"],
+        ["xpath=//a[@id='slick-slide00']/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/a[2]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "00d0a688-027d-4c55-bd47-f86d3a392b00",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Find a Warehouse",
+      "targets": [
+        ["linkText=Find a Warehouse", "linkText"],
+        ["css=.col-sm-3:nth-child(4) li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Find a Warehouse')]", "xpath:link"],
+        ["xpath=//div[@id='footer-list']/div/div[4]/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/warehouse-locations?langId=-24&storeId=10302&catalogId=11201')])[3]", "xpath:href"],
+        ["xpath=//div[2]/div/div[4]/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Find a Warehouse')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "98c8b3b0-b467-4da8-82e1-39fd38dfb81a",
+      "comment": "",
+      "command": "click",
+      "target": "id=search-warehouse",
+      "targets": [
+        ["id=search-warehouse", "id"],
+        ["name=search_warehouse", "name"],
+        ["css=#search-warehouse", "css:finder"],
+        ["xpath=//input[@id='search-warehouse']", "xpath:attributes"],
+        ["xpath=//div[@id='search-warehouse-container']/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c2547678-0cd4-4883-a3c6-d74e2578bce2",
+      "comment": "",
+      "command": "click",
+      "target": "id=search-warehouse",
+      "targets": [
+        ["id=search-warehouse", "id"],
+        ["name=search_warehouse", "name"],
+        ["css=#search-warehouse", "css:finder"],
+        ["xpath=//input[@id='search-warehouse']", "xpath:attributes"],
+        ["xpath=//div[@id='search-warehouse-container']/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ce7cc10f-c648-4c3f-a012-8867e36c4d7b",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=search-warehouse",
+      "targets": [
+        ["id=search-warehouse", "id"],
+        ["name=search_warehouse", "name"],
+        ["css=#search-warehouse", "css:finder"],
+        ["xpath=//input[@id='search-warehouse']", "xpath:attributes"],
+        ["xpath=//div[@id='search-warehouse-container']/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b75ec887-383f-4e42-b629-9d6f38627fac",
+      "comment": "",
+      "command": "type",
+      "target": "id=search-warehouse",
+      "targets": [
+        ["id=search-warehouse", "id"],
+        ["name=search_warehouse", "name"],
+        ["css=#search-warehouse", "css:finder"],
+        ["xpath=//input[@id='search-warehouse']", "xpath:attributes"],
+        ["xpath=//div[@id='search-warehouse-container']/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/input", "xpath:position"]
+      ],
+      "value": "cheese"
+    }, {
+      "id": "84040377-f042-440a-8c4d-c468f88f79b7",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=search-warehouse",
+      "targets": [
+        ["id=search-warehouse", "id"],
+        ["name=search_warehouse", "name"],
+        ["css=#search-warehouse", "css:finder"],
+        ["xpath=//input[@id='search-warehouse']", "xpath:attributes"],
+        ["xpath=//div[@id='search-warehouse-container']/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "c1d075c3-17ac-437b-abd5-f430aba7213e",
+      "comment": "",
+      "command": "click",
+      "target": "id=list-column",
+      "targets": [
+        ["id=list-column", "id"],
+        ["css=#list-column", "css:finder"],
+        ["xpath=//div[@id='list-column']", "xpath:attributes"],
+        ["xpath=//div[@id='locator']/div[3]/div[3]", "xpath:idRelative"],
+        ["xpath=//div[3]/div[3]/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d32137f2-a5bb-4be3-b012-290ed6903a94",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=#error-container > .form-group",
+      "targets": [
+        ["css=#error-container > .form-group", "css:finder"],
+        ["xpath=//div[@id='error-container']/div", "xpath:idRelative"],
+        ["xpath=//form/div[2]/div/div", "xpath:position"]
+      ],
+      "value": "We were unable to find a Costco warehouse near your location. Try searching again."
+    }]
+  }, {
+    "id": "033b1e1e-e49a-4c4e-9ca7-43ec8516bab0",
+    "name": "deleteList",
+    "commands": [{
+      "id": "14950ad3-6368-4040-8390-68264faf2a08",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5f382cbf-9444-4cc7-a36c-de64557fb717",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x869",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cf4e962f-e774-4524-bc2e-b1fd6f680a62",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Lists",
+      "targets": [
+        ["linkText=Lists", "linkText"],
+        ["css=li:nth-child(1) > .body-copy-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Lists')]", "xpath:link"],
+        ["xpath=//ul[@id='banner-list-actions']/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.costco.ca/NonAjaxAccountListDisplayView?listId=.')]", "xpath:href"],
+        ["xpath=//div[2]/nav/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Lists')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ebb889dd-c08f-432b-bd9f-b12646a8594a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.bottom-pad-list",
+      "targets": [
+        ["css=.bottom-pad-list", "css:finder"],
+        ["xpath=//div[@id='tiles-body-attribute']/div[3]/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[7]/div/div[3]/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "098fce96-0bfc-4345-b702-80cef8366f8f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accountpage > .row",
+      "targets": [
+        ["css=.accountpage > .row", "css:finder"],
+        ["xpath=//main/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c37b51a0-4c86-44a9-bfa1-c1e7ac43516e",
+      "comment": "",
+      "command": "dragAndDropToObject",
+      "target": "linkText=Furniture",
+      "targets": [],
+      "value": "css=.h5-style-guide-link > span"
+    }, {
+      "id": "fe175a21-89ec-41b6-bf8a-bae00db3f0a6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accountpage",
+      "targets": [
+        ["css=.accountpage", "css:finder"],
+        ["xpath=//main", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "40d04b9c-8ddf-4abb-8f9d-3959084df912",
+      "comment": "",
+      "command": "click",
+      "target": "css=.bottom-pad-list",
+      "targets": [
+        ["css=.bottom-pad-list", "css:finder"],
+        ["xpath=//div[@id='tiles-body-attribute']/div[3]/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[7]/div/div[3]/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "26049d7d-1b6e-480c-8c43-7e793565ffb4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accountpage > .row",
+      "targets": [
+        ["css=.accountpage > .row", "css:finder"],
+        ["xpath=//main/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d7de5981-0651-4aa2-8869-82338acc086b",
+      "comment": "",
+      "command": "dragAndDropToObject",
+      "target": "linkText=Furniture",
+      "targets": [],
+      "value": "css=.h5-style-guide-link > span"
+    }, {
+      "id": "a05c572b-b670-409f-ae0e-7c2b2e91d0ff",
+      "comment": "",
+      "command": "click",
+      "target": "css=.shoping_list",
+      "targets": [
+        ["css=.shoping_list", "css:finder"],
+        ["xpath=//div[@id='tiles-body-attribute']/div[3]/div/div", "xpath:idRelative"],
+        ["xpath=//div[7]/div/div[3]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "38145e0b-cddb-4a4c-9c97-a7804c5172a9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.h5-style-guide-link > span",
+      "targets": [
+        ["css=.h5-style-guide-link > span", "css:finder"],
+        ["xpath=//div[@id='tiles-body-attribute']/div[3]/div/div/div[2]/div[2]/span/h3/a/span", "xpath:idRelative"],
+        ["xpath=//h3/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "11e88a18-ab4d-463a-8f6a-687c71bc4d04",
+      "comment": "",
+      "command": "click",
+      "target": "id=editlist",
+      "targets": [
+        ["id=editlist", "id"],
+        ["linkText=Edit/Arrange List", "linkText"],
+        ["css=#editlist", "css:finder"],
+        ["xpath=//a[contains(text(),'Edit/Arrange List')]", "xpath:link"],
+        ["xpath=//a[@id='editlist']", "xpath:attributes"],
+        ["xpath=//div[@id='tiles-body-attribute']/div[3]/div/div/div[2]/div/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0);')])[10]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Edit/Arrange List')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d2e750d7-88dd-4db4-89af-d78c9999de78",
+      "comment": "",
+      "command": "click",
+      "target": "css=.t5-style-link",
+      "targets": [
+        ["css=.t5-style-link", "css:finder"],
+        ["xpath=//form[@id='listnameupdateform']/div/div[3]/div", "xpath:idRelative"],
+        ["xpath=//form/div/div[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "20eb42f9-8437-4e1f-a040-6c1ca7e14ac8",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Delete List",
+      "targets": [
+        ["linkText=Delete List", "linkText"],
+        ["css=.deleteaction", "css:finder"],
+        ["xpath=//a[contains(text(),'Delete List')]", "xpath:link"],
+        ["xpath=//form[@id='listnameupdateform']/div/div[3]/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[4]", "xpath:href"],
+        ["xpath=//div[3]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Delete List')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f3d89682-4896-4fae-9e67-fa04085819c2",
+      "comment": "",
+      "command": "click",
+      "target": "id=costcoModalBtn2",
+      "targets": [
+        ["id=costcoModalBtn2", "id"],
+        ["css=#costcoModalBtn2", "css:finder"],
+        ["xpath=//button[@id='costcoModalBtn2']", "xpath:attributes"],
+        ["xpath=//div[@id='costcoModal']/div/div/div[3]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Delete List')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "12dd8d16-1a26-4027-beef-83ed76e75f32",
+      "comment": "",
+      "command": "assertElementNotPresent",
+      "target": "css=.h5-style-guide-link > span",
+      "targets": [
+        ["css=.h5-style-guide-link > span", "css:finder"],
+        ["xpath=//div[@id='tiles-body-attribute']/div[3]/div/div/div[2]/div[2]/span/h3/a/span", "xpath:idRelative"],
+        ["xpath=//h3/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "dbf301e2-88f1-4a98-a39f-f70795f79477",
+    "name": "makeList",
+    "commands": [{
+      "id": "be712fbd-5b7b-4eb8-9453-7b7aba415d6e",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1bd29bf1-94cf-43aa-b3d2-f69881048cb7",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x869",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ab764ac6-0c40-48eb-8039-2d9021583f5f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Lists",
+      "targets": [
+        ["linkText=Lists", "linkText"],
+        ["css=li:nth-child(1) > .body-copy-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Lists')]", "xpath:link"],
+        ["xpath=//ul[@id='banner-list-actions']/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.costco.ca/NonAjaxAccountListDisplayView?listId=.')]", "xpath:href"],
+        ["xpath=//div[2]/nav/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Lists')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4ecd45d2-a691-47f3-9bb3-fc07a18ebba8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.caption:nth-child(2)",
+      "targets": [
+        ["css=.caption:nth-child(2)", "css:finder"],
+        ["xpath=//a[@id='creatediv']/div/div", "xpath:idRelative"],
+        ["xpath=//div/a/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8223ccb2-dbdd-435c-b573-5f1e61b7e484",
+      "comment": "",
+      "command": "click",
+      "target": "id=listidname",
+      "targets": [
+        ["id=listidname", "id"],
+        ["name=listidname", "name"],
+        ["css=#listidname", "css:finder"],
+        ["xpath=//input[@id='listidname']", "xpath:attributes"],
+        ["xpath=//form[@id='createlistsform']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b4e58509-1e3a-4e8a-859e-c0a9d9692534",
+      "comment": "",
+      "command": "type",
+      "target": "id=listidname",
+      "targets": [
+        ["id=listidname", "id"],
+        ["name=listidname", "name"],
+        ["css=#listidname", "css:finder"],
+        ["xpath=//input[@id='listidname']", "xpath:attributes"],
+        ["xpath=//form[@id='createlistsform']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/form/input", "xpath:position"]
+      ],
+      "value": "Furniture"
+    }, {
+      "id": "556df2e9-3c8a-49d3-8903-c48915c2742b",
+      "comment": "",
+      "command": "click",
+      "target": "id=costcoModalBtn2",
+      "targets": [
+        ["id=costcoModalBtn2", "id"],
+        ["css=#costcoModalBtn2", "css:finder"],
+        ["xpath=//button[@id='costcoModalBtn2']", "xpath:attributes"],
+        ["xpath=//div[@id='costcoModal']/div/div/div[3]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Create List')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e5b8119e-9c8b-4675-aa80-9d82a4467326",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.h5-style-guide-link > span",
+      "targets": [
+        ["css=.h5-style-guide-link > span", "css:finder"],
+        ["xpath=//div[@id='tiles-body-attribute']/div[3]/div/div/div[2]/div[2]/span/h3/a/span", "xpath:idRelative"],
+        ["xpath=//h3/a/span", "xpath:position"]
+      ],
+      "value": "Furniture"
+    }]
+  }],
+  "suites": [{
+    "id": "51af38d3-85b1-4684-b9d9-d15eb9d29837",
+    "name": "Login",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["8d33c8e0-7ca6-45a3-9fda-82cfb3958a72", "2af66fba-87ba-4961-a37a-6f5187a1ed60"]
+  }, {
+    "id": "51c51205-1c69-401b-afad-0450e3cd49ea",
+    "name": "FindWareHouse",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["4cd02586-4d52-4d0c-8536-42f3b8946a73", "dcc6eea2-f32b-4d30-8566-6d01e133109a"]
+  }, {
+    "id": "e822d165-d456-485e-b33b-d01d2473851c",
+    "name": "List",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["dbf301e2-88f1-4a98-a39f-f70795f79477", "033b1e1e-e49a-4c4e-9ca7-43ec8516bab0"]
+  }],
+  "urls": ["https://www.costco.ca/"],
+  "plugins": []
+}
